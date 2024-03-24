@@ -36,6 +36,7 @@ void loop() {
   if (cm <= 50){
     digitalWrite(led, HIGH);
   }
+    
   else{
     digitalWrite(led, LOW);
   }
@@ -45,8 +46,6 @@ void loop() {
   Serial.print(cm);
   Serial.print("cm");
   Serial.println();
-
-  //delay(100);
 }
 
 long microsecondsToInches(long microseconds) {
