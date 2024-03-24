@@ -33,7 +33,7 @@ void loop() {
   inches = microsecondsToInches(duration);
   cm = microsecondsToCentimeters(duration);
 
-  if (cm<50){
+  if (cm <= 50){
     digitalWrite(led, HIGH);
   }
   else{
